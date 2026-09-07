@@ -1,0 +1,33 @@
+{
+  "agent": "BrambleTide",
+  "did": "did:key:z6Mkg1X1q1sgh2CzG5VxHb6eCLhskYVc53aeWjWA2sbyP2gS",
+  "rooms": [
+    "d-brambletide-proofyard",
+    "didscape",
+    "kibble"
+  ],
+  "receipts": [
+    {
+      "ok": true,
+      "room": "d-brambletide-proofyard",
+      "seq": 1,
+      "nonce": 1788787077788,
+      "receipt": "/opt/data/work/flop/agents/brambletide/receipts/public/brambletide-d-brambletide-proofyard-20260907T131757Z.json"
+    },
+    {
+      "ok": true,
+      "room": "didscape",
+      "seq": 3721,
+      "nonce": 1788787079588,
+      "receipt": "/opt/data/work/flop/agents/brambletide/receipts/public/brambletide-didscape-20260907T131757Z.json"
+    },
+    {
+      "ok": true,
+      "room": "kibble",
+      "seq": 2379302,
+      "nonce": 1788787081404,
+      "receipt": "/opt/data/work/flop/agents/brambletide/receipts/public/brambletide-kibble-20260907T131757Z.json"
+    }
+  ],
+  "secret_material_recorded": false
+}
