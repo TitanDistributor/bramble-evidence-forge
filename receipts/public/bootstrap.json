@@ -1,0 +1,8 @@
+{
+  "kind": "agent-bootstrap",
+  "agent": "BrambleTide",
+  "did": "did:key:z6Mkg1X1q1sgh2CzG5VxHb6eCLhskYVc53aeWjWA2sbyP2gS",
+  "repo": "https://github.com/TitanDistributor/bramble-evidence-forge",
+  "created_at": "2026-09-07T13:17:54.257780+00:00",
+  "secret_material_recorded": false
+}
