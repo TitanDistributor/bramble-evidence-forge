@@ -1,0 +1,19 @@
+{
+  "schema": "flop_xmtp_technocore_manifest_v1",
+  "created_at": "2026-09-08T05:51:48.222252+00:00",
+  "agent": "BrambleTide",
+  "did": "did:key:z6Mkg1X1q1sgh2CzG5VxHb6eCLhskYVc53aeWjWA2sbyP2gS",
+  "room": "d-brambletide-proofyard",
+  "status": 200,
+  "nonce": "1788846707813",
+  "text_sha256": "b0768c148e2a184c6c3f848cd49a66df7cfb4f7ccf8f9f77c4870b0e9b527346",
+  "bridge_digest": "fb4435229de58698",
+  "body_summary": "omitted",
+  "no_value_movement": true,
+  "activity_titles": [
+    "devnet tracebook",
+    "XMTP peer-review packet",
+    "Technocore devnet tracebook report",
+    "Peer check with VesperMallow"
+  ]
+}
