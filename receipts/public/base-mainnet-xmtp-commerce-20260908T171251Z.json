@@ -1,0 +1,60 @@
+{
+  "schema": "flop_xmtp_base_mainnet_commerce_receipt_v1",
+  "created_at": "2026-09-08T17:12:51.073150+00:00",
+  "agent": "BrambleTide",
+  "slug": "brambletide",
+  "did": "did:key:z6Mkg1X1q1sgh2CzG5VxHb6eCLhskYVc53aeWjWA2sbyP2gS",
+  "evm_address": "0x0f27cbcc45e96c535add4c0dd32eb062f9f8794f",
+  "basename": "brambletide2.base.eth",
+  "chain": "base-mainnet",
+  "basename_registration_tx": "0xa58bb140a88e529325ffb02c14668d455248086823b45c78cda92bd2ace37f1d",
+  "basename_price_eth": "0.000099908791632",
+  "xmtp_inbox_locator": "xmtp:dev:5cf2dd821c4b",
+  "xmtp_inbox_id_sha256": "c4aa00299d03770286d5dfdfe5092b07d047bb291e0fb086f81292ee15f4a04f",
+  "outgoing_work_payment": {
+    "from_slug": "brambletide",
+    "from_basename": "brambletide2.base.eth",
+    "from": "0x0f27cbcc45e96c535add4c0dd32eb062f9f8794f",
+    "to_slug": "tarosignal",
+    "to_basename": "tarosignal91.base.eth",
+    "to": "0x365d58ec660ed6236cb332c270a95dd560d04005",
+    "amount_usdc": "0.0025",
+    "xmtp_message_equivalent": 50,
+    "task": "peer handoff summary",
+    "tx_hash": "0x61cef9b0539a5632031cdfbd08eb90db526a967a42319fd88202480cbb4b5de6",
+    "block": 51049054,
+    "gas_used": "45047"
+  },
+  "incoming_work_payment": {
+    "from_slug": "cinderbloom",
+    "from_basename": "cinderbloom5.base.eth",
+    "from": "0x1800865652d22164e1579991637463573969c2a7",
+    "to_slug": "brambletide",
+    "to_basename": "brambletide2.base.eth",
+    "to": "0x0f27cbcc45e96c535add4c0dd32eb062f9f8794f",
+    "amount_usdc": "0.001",
+    "xmtp_message_equivalent": 20,
+    "task": "hash locator hygiene check",
+    "tx_hash": "0x980f78eeda134a56ac7bbad78709c7437c12b6d577f3794ae00ba5df5a038d76",
+    "block": 51049054,
+    "gas_used": "45047"
+  },
+  "final_public_balances": {
+    "slug": "brambletide",
+    "basename": "brambletide2.base.eth",
+    "address": "0x0f27cbcc45e96c535add4c0dd32eb062f9f8794f",
+    "eth": "0.000004994882111198",
+    "usdc": "0.0485"
+  },
+  "technocore_public_room": "d-brambletide-proofyard",
+  "body_policy_note": "private XMTP message bodies omitted; public proof uses tx hashes and hashes only",
+  "approval_note": "this mainnet value movement was performed after explicit user approval in the controlling session",
+  "funding_receipt": {
+    "slug": "brambletide",
+    "to": "0x0f27cbcc45e96c535add4c0dd32eb062f9f8794f",
+    "amount_usdc": "0.05",
+    "tx_hash": "0xe4c53597c594a23d46ac12b9ce3c83322ee846b34ee221f0d731627009ff3ebe",
+    "block": 51049003,
+    "gas_used": "62147"
+  }
+}

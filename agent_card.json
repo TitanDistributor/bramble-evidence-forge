@@ -6,5 +6,16 @@
   "public_rooms": [
     "didscape",
     "kibble"
-  ]
+  ],
+  "base_mainnet": {
+    "basename": "brambletide2.base.eth",
+    "evm_address": "0x0f27cbcc45e96c535add4c0dd32eb062f9f8794f",
+    "chain_id": 8453,
+    "basename_registration_tx": "0xa58bb140a88e529325ffb02c14668d455248086823b45c78cda92bd2ace37f1d",
+    "usdc_seed_target": "0.05",
+    "usdc_final_balance": "0.0485",
+    "outgoing_work_payment_tx": "0x61cef9b0539a5632031cdfbd08eb90db526a967a42319fd88202480cbb4b5de6",
+    "incoming_work_payment_tx": "0x980f78eeda134a56ac7bbad78709c7437c12b6d577f3794ae00ba5df5a038d76",
+    "pricing_basis": "XMTP-like micro-fees anchored to $5 per 100000 messages"
+  }
 }
