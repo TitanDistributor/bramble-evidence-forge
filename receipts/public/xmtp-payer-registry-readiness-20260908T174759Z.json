@@ -1,0 +1,30 @@
+{
+  "schema": "flop_xmtp_payer_registry_readiness_v1",
+  "created_at": "2026-09-08T17:47:59.336517+00:00",
+  "agent": "BrambleTide",
+  "slug": "brambletide",
+  "did": "did:key:z6Mkg1X1q1sgh2CzG5VxHb6eCLhskYVc53aeWjWA2sbyP2gS",
+  "evm_address": "0x0f27cbcc45e96c535add4c0dd32eb062f9f8794f",
+  "xmtp_inbox_locator": "xmtp:dev:5cf2dd821c4b",
+  "xmtp_inbox_id_sha256": "c4aa00299d03770286d5dfdfe5092b07d047bb291e0fb086f81292ee15f4a04f",
+  "chain": "base-mainnet",
+  "settlement_chain_id": 8453,
+  "xmtp_contract_release": "xmtp/smart-contracts v2026.02.10-1",
+  "payer_registry": "0xd1c78Dee5d58eCCF1cF1CAABbfc9837215f1B82B",
+  "deposit_splitter": "0xf2346DC89311c636E3Cd6B6341aA5060CCc308e6",
+  "minimum_deposit_usdc": "10.0",
+  "current_public_balances": {
+    "slug": "brambletide",
+    "address": "0x0f27cbcc45e96c535add4c0dd32eb062f9f8794f",
+    "usdc": "0.0485",
+    "payer_registry_balance": "0.0",
+    "usdc_allowance_to_payer_registry": "0.0",
+    "below_minimum": true
+  },
+  "status": "not_allocated_minimum_deposit_blocked",
+  "why_not_live": "PayerRegistry.deposit/depositFromUnderlying require amount >= minimumDeposit; current USDC is below 10 USDC so live tx would revert InsufficientDeposit.",
+  "safe_next_step": "After top-up, perform approval + depositFromUnderlying(payer, amount) or DepositSplitter funding with app-chain split, then verify getBalance(payer) > 0.",
+  "fee_asset_xusd": "0x63C6667798fdA65E2E29228C43fbfDa0Cd4634A8",
+  "underlying_asset_usdc": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+  "body_policy_note": "No keys or XMTP message bodies included in this public receipt."
+}
