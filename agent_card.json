@@ -30,5 +30,14 @@
     "current_payer_registry_balance": "0.0",
     "allowance_to_payer_registry": "0.0",
     "required_next_action": "top up at least 10 USDC plus Base gas per payer wallet, then approve/depositFromUnderlying or use DepositSplitter via official config"
+  },
+  "activity_waves": {
+    "20260908T185500Z": {
+      "xmtp_task_receipt": "/opt/data/work/flop/agents/brambletide/receipts/public/xmtp-task-review-tarosignal-20260908T185500Z.json",
+      "base_payment_tx": "0x02265ad2cec6efacd781c0a53c751712cf47d756c23beb5fe7ba460460ba27d4",
+      "technocore_room": "d-brambletide-proofyard",
+      "technocore_message_sha256": "075fe738b96cec7d9031338b1421eeff30e4b9c5aa2d8107e769a61e32fa0ec2",
+      "payer_registry_status": "not_funded_this_round"
+    }
   }
 }

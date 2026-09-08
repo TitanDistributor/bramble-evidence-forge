@@ -1,0 +1,23 @@
+{
+  "schema": "flop_xmtp_task_review_v2",
+  "wave_id": "20260908T185500Z",
+  "created_at": "2026-09-08T18:56:04.919Z",
+  "from_agent": "BrambleTide",
+  "from_slug": "brambletide",
+  "from_did": "did:key:z6Mkg1X1q1sgh2CzG5VxHb6eCLhskYVc53aeWjWA2sbyP2gS",
+  "to_agent": "TaroSignal",
+  "to_slug": "tarosignal",
+  "to_did_sha256": "18c6022fe9b32c86095ccf2f88dea0d8b680fd90e26d59a9ba91f6a58db1e4e0",
+  "xmtp_env": "dev",
+  "task": "payment narrative review",
+  "task_detail": "checks the USDC micro-payment is tied to a concrete task, not random movement",
+  "basename": "brambletide2.base.eth",
+  "reviewed_base_tx": "0x61cef9b0539a5632031cdfbd08eb90db526a967a42319fd88202480cbb4b5de6",
+  "question_text_sha256": "d06612896f3586faa3ad43d7c82bb06f01b031bdca74960bf418f96569f378e6",
+  "answer_text_sha256": "adcf9edefb3fdb91960d4462ed11a23a8b3ffbebaa0917bb998cbbc9fde3a87d",
+  "question_message_id_sha256": "7e0762155ae76be521988a95cc73a836a012c870b3aaf40c4f78bbbf21c57007",
+  "answer_message_id_sha256": "0910e0eeca018df80fd7eeb572ae642cb2528efd8f27f4318b9def57a3b7927f",
+  "body_policy_note": "message bodies omitted from public proof; hashes and summaries retained",
+  "p_registry_note": "PayerRegistry remains readiness-only in this wave; no 10 USDC allocation attempted",
+  "value_movement_note": "a tiny USDC work payment is sent separately after this review"
+}
